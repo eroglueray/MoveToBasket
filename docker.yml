@@ -1,0 +1,22 @@
+# Use root/example as user/password credentials
+version: '3.8'
+
+services:
+
+  move-to-basket:
+      image: "move-to-basket"
+      build: 
+        context: .
+        dockerfile: Dockerfile
+      ports:
+          - "5005:5005"
+      links:
+          - mongodb-primary
+      depends_on:
+          - mongodb-primary
+      environment: 
+          MONGOCONNECTION: "mongodb+srv://dbBasket:basket59@ecommercecluster.2iyap.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+          DATABASENAME: "MoveToBasket"
+          ASPNETCORE_ENVIRONMENT: "Development"
+          ASPNETCORE_URLS: http://+:5005
+  

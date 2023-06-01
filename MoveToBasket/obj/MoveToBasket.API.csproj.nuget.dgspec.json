@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/eray/Downloads/MoveToBasket(1)/MoveToBasket/MoveToBasket.API.csproj": {}
+  },
+  "projects": {
+    "/Users/eray/Downloads/MoveToBasket(1)/MoveToBasket/MoveToBasket.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eray/Downloads/MoveToBasket(1)/MoveToBasket/MoveToBasket.API.csproj",
+        "projectName": "MoveToBasket.API",
+        "projectPath": "/Users/eray/Downloads/MoveToBasket(1)/MoveToBasket/MoveToBasket.API.csproj",
+        "packagesPath": "/Users/eray/.nuget/packages/",
+        "outputPath": "/Users/eray/Downloads/MoveToBasket(1)/MoveToBasket/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eray/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.6.4, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.18.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.2, )"
+            },
+            "NSwag.SwaggerGeneration": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            },
+            "ServiceStack.Core": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
